@@ -1,7 +1,8 @@
 @keyframes imageHoverAnimation {
-    0% { filter: saturate(0); }
-    33% { filter: saturate(2); }
-    100% { filter: saturate(5); }
+    0% { filter: saturate(1); }
+    33% { filter: saturate(3); }
+    66% { filter: saturate(3); }
+    100% { filter: saturate(1); }
 }
 h2{
     color: black;
