@@ -1,7 +1,15 @@
+h2{
+    color: blue;
+    background-color: yellow;
+}
 h5 {
     color: teal;
     background-color: red;
 }
 body {
     background-color: lightblue;
+}
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
 }
