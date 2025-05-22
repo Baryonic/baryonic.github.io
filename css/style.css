@@ -1,15 +1,35 @@
+@keyframes imageHoverAnimation {
+    0% { filter: saturate(1); }
+    33% { filter: saturate(3); }
+    100% { filter: saturate(1); }
+}
 h2{
-    color: blue;
-    background-color: yellow;
+    color: black;
+    font-family: Rowdies, sans-serif;
+    margin: 5px auto;
+    text-align: center;
 }
 h5 {
-    color: teal;
-    background-color: red;
+    color: #000000;
+    font-family: AudioWide, sans-serif;
 }
 body {
     background-color: lightblue;
 }
 .card{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin:5px auto;
+}
+
+.card-img-top {
+    animation: none;
+}
+.card-img-top:hover {
+    animation: imageHoverAnimation 4s infinite ease-in-out;
+}
+
+.card-body p{
+    font-family: Outfit, serif;
+}
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
 }
