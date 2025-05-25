@@ -14,6 +14,25 @@
     object-fit: cover;
     z-index: -1;
 }
+/*Background image*/
+.fallback-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111; /* Dark fallback */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+.fallback-bg img {
+    width: 100%; /* Adjust the size */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+}
 .h2_class {
     color: white;
     font-family: Rowdies, sans-serif;
