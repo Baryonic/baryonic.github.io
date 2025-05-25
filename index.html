@@ -21,11 +21,11 @@
 <body>
   <video autoplay loop muted playsinline class="bg-video">
     <source src="./videos/black_hole.mp4" type="video/mp4">
-</video>
-<!-- If video can't be loaded, this div will be visible -->
-<div class="fallback-bg">
+  </video>
+  <!-- If video can't be loaded, this div will be visible -->
+  <div class="fallback-bg">
     <img src="./images/carina.png" alt="carina.png not able to load.">
-</div>
+  </div>
 
   <nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,10 +38,10 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Certification Projects</a>
+              <a class="nav-link active" aria-current="page" href="#certification_a_id">Certification Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Professional Projects</a>
+              <a class="nav-link" href="#professional_a_id">Professional Projects</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
@@ -49,18 +49,18 @@
                 Personal Projects
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Python</a></li>
-                <li><a class="dropdown-item" href="#">Javascript</a></li>
+                <li><a class="dropdown-item" href="#ai_a_id">AI projects</a></li>
+                <li><a class="dropdown-item" href="#games_a_id">Games</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Html + Css</a></li>
+                <li><a class="dropdown-item" href="#">Trading Bot</a></li>
                 <li><a class="dropdown-item" href="#">Bootstrap</a></li>
-                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a>not working</li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page">Portfolio Projects</a>
+              <a class="nav-link active" href="#portfolio_a_id" aria-current="page">Portfolio Projects</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -75,25 +75,38 @@
     <div class="container">
       <div class="row">
         <div class="d-none d-md-block col-md-6 d-lg-block col-lg-3">
-          <h2 class="h2_class">Certification Projects</h2>
+          <a href="#certification_a_id">
+            <h2 class="h2_class">Certification Projects</h2>
+          </a>
           <p class="description_p_class">Projects required for the Scrub Master official certification.</p>
         </div>
         <div class="d-none d-md-block col-md-6 d-lg-block col-lg-3">
-          <h2 class="h2_class">Professional projects</h2>
-          <p  class="description_p_class">A project sponsored by a developer at Rumi Explora.</p>
+          <a href="#professional_a_id">
+            <h2 class="h2_class">Professional projects</h2>
+          </a>
+
+          <p class="description_p_class">A project sponsored by a developer at Rumi Explora.</p>
         </div>
         <div class="d-none d-md-block col-md-6 d-lg-block col-lg-3">
-          <h2 class="h2_class">Personal Projects</h2>
-          <p class="description_p_class">Usefull programs to manage my life and programs that are fun to code and to run.</p>
+          <a href="#personal_a_id">
+            <h2 class="h2_class">Personal Projects</h2>
+          </a>
+
+          <p class="description_p_class">Usefull programs to manage my life and programs that are fun to code and to
+            run.</p>
         </div>
         <div class="d-none d-md-block col-md-6 d-lg-block col-lg-3">
-          <h2 class="h2_class">Portfolio projects</h2>
+          <a href="#portfolio_a_id">
+            <h2 class="h2_class">Portfolio projects</h2>
+          </a>
+
           <p class="description_p_class">Projects to enhance this portfolio.</p>
         </div>
       </div>
     </div>
   </section>
   <div class="container" id="certification_container_id">
+    <a id="certification_a_id"></a>
     <h2 class="h2_class">Certification projects</h2>
     <div class="row">
       <div class="col-md-4">
@@ -129,8 +142,7 @@
             </p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#" class="card-link"
-                target="_blank">repository link</a></li>
+            <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
             <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
             <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                 Pages
@@ -138,7 +150,7 @@
           </ul>
           <div class="card-body">
             <p>
-             Html, css, bootstrap
+              Html, css, bootstrap
             </p>
           </div>
         </div>
@@ -147,6 +159,7 @@
   </div>
   <section>
     <div class="container" id="professional_container_id">
+      <a id="professional_a_id"></a>
       <h2 class="h2_class">Professional projects</h2>
       <div class="row">
         <div class="col-md-4">
@@ -186,8 +199,7 @@
                 </p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#" class="card-link"
-                    target="_blank">repository link</a></li>
+                <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
                 <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
                 <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                     Pages
@@ -211,8 +223,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -228,10 +239,12 @@
       </div>
     </div>
     <div class="container" id="personal_container_id">
+      <a id="personal_a_id"></a>
       <h2 class="h2_class">Personal Projects</h2>
       <div class="row">
         <div class="col-sm-5 col-md-4 col-lg-3">
           <div class="card" style="width: 14rem;">
+            <a id="ai_a_id"></a>
             <img src="images/speech_recognition.png" class="card-img-top" alt="speech_recognition image error">
             <div class="card-body">
               <h5 class="card-title">AI: Audio Speech Recognition model in local CPU</h5>
@@ -242,7 +255,8 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="https://github.com/baryonic/ASRmodel" class="card-link">repository link</a></li>
+              <li class="list-group-item"><a href="https://github.com/baryonic/ASRmodel" class="card-link">repository
+                  link</a></li>
             </ul>
             <div class="card-body">
               <p>
@@ -261,11 +275,14 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="https://github.com/baryonic/Neo_2_7b_one_response" class="card-link">repository link</a></li>
-             
-              <li class="list-group-item"><a href="https://huggingface.co/EleutherAI/gpt-neo-2.7B" class="card-link">model download</a></li>
-              
-              <li class="list-group-item"><a href="https://github.com/EleutherAI/gpt-neo" class="card-link">gpt neo repository</a></li>
+              <li class="list-group-item"><a href="https://github.com/baryonic/Neo_2_7b_one_response"
+                  class="card-link">repository link</a></li>
+
+              <li class="list-group-item"><a href="https://huggingface.co/EleutherAI/gpt-neo-2.7B"
+                  class="card-link">model download</a></li>
+
+              <li class="list-group-item"><a href="https://github.com/EleutherAI/gpt-neo" class="card-link">gpt neo
+                  repository</a></li>
             </ul>
             <div class="card-body">
               <p>
@@ -286,8 +303,10 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><a href="#" class="card-link">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
-              <li class="list-group-item"><a href="https://huggingface.co/docs" class="card-link">HuggingFace documentation</a>
-              <li class="list-group-item"><a href="https://openrouter.ai/docs/quickstart  " class="card-link">OpenRouter documentation</a></li>
+              <li class="list-group-item"><a href="https://huggingface.co/docs" class="card-link">HuggingFace
+                  documentation</a>
+              <li class="list-group-item"><a href="https://openrouter.ai/docs/quickstart  " class="card-link">OpenRouter
+                  documentation</a></li>
             </ul>
             <div class="card-body">
               <p>
@@ -298,6 +317,7 @@
         </div>
         <div class="col-sm-5 col-md-4 col-lg-3">
           <div class="card" style="width: 14rem;">
+            <a id="games_a_id"></a>
             <img src="images/shooter.png" class="card-img-top" alt="shooter img not working">
             <div class="card-body">
               <h5 class="card-title">Javascript games</h5>
@@ -330,8 +350,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -354,8 +373,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -378,8 +396,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -402,8 +419,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -419,6 +435,7 @@
       </div>
     </div>
     <div class="container" id="portfolio_container_id">
+      <a id="portfolio_a_id"></a>
       <h2 class="h2_class">Portfolio projects</h2>
       <div class="row">
         <div class="col-md-4">
@@ -431,8 +448,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -455,8 +471,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
@@ -479,8 +494,7 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><a href="#" class="card-link"
-                  target="_blank">repository link</a></li>
+              <li class="list-group-item"><a href="#" class="card-link" target="_blank">repository link</a></li>
               <li class="list-group-item"><a href="#" class="card-link">project link</a></li>
               <li class="list-group-item"><a href="#" class="card-link" target="_blank">GitHub
                   Pages
