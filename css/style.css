@@ -3,19 +3,38 @@
     50% { filter: saturate(3); }
     100% { filter: saturate(1); }
 }
+/*Background video
+*/
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
 h2{
-    color: black;
+    color: white;
     font-family: Rowdies, sans-serif;
     margin: 5px auto;
     text-align: center;
 }
 h5 {
-    color: #000000;
+    color: white;
     font-family: AudioWide, sans-serif;
 }
 body {
     background-color: lightblue;
 }
+
+/* parrafos
+*/
+.description_p_class{
+    color: white;
+}
+/* Cards
+*/
 .card{
     margin:5px auto;
 }
@@ -32,4 +51,5 @@ body {
 }
 .card-text{
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
