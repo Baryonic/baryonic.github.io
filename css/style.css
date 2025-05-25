@@ -14,14 +14,14 @@
     object-fit: cover;
     z-index: -1;
 }
-h2{
+.h2_class {
     color: white;
     font-family: Rowdies, sans-serif;
     margin: 5px auto;
     text-align: center;
 }
 h5 {
-    color: white;
+    color: black;
     font-family: AudioWide, sans-serif;
 }
 
