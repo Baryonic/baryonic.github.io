@@ -70,10 +70,10 @@ h5 {
     color: black;
 }
 
-/* Make cards bigger on xs screens */
+/* xs screens */
 @media (max-width: 575.98px) {
     .card {
-        width: 85vw !important;   /* Make card almost as wide as the screen */
+        width: 85vw !important; 
         margin: 16px auto;
     }
     .card-body {
@@ -86,8 +86,7 @@ h5 {
         font-size: 1.1rem;
     }
 }
-
-/* Make cards slightly bigger on xl screens (1200px and up) */
+/* xl screens */
 @media (min-width: 1200px) {
     .card {
         width: 16rem !important;
@@ -99,7 +98,7 @@ h5 {
         font-size: 1.08rem;
     }
 }
-/* Make cards slightly bigger on xxl screens */
+/* xxl screens */
 @media (min-width: 1440px) {
     .card {
         width: 18rem !important;
